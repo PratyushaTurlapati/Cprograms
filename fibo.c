@@ -2,7 +2,11 @@
 int fibo(int num)
 {
 	int a=0,b=1,i,c;
-	if(num==0 || num==1)
+	if(num==0)
+	{
+		return 1;
+	}
+	if(num==1)
 	{
 		return 1;
 	}
